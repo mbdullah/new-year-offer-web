@@ -60,7 +60,22 @@
 .spann{
   color: #FF2A00;
 }
-  
+.comming-soon{
+  font-size: 48px;
+  color: #070211;
+  font-family: Merriweather;
+  margin: 0;
+  padding: 0;
+}
+.section-3{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #070211;
+  opacity: 0.7;
+  margin-top: 20px;
+
+}
 /* header section style */
 .banner-container{
   border-radius: 25px;
@@ -87,7 +102,7 @@
     /* margin-bottom: 6px; */
 }
 .banner-title{
-    font-size: 150px;
+    font-size: 100px;
     color: #FFFFFF;
     font-weight: 800;
 }
@@ -191,7 +206,116 @@
   font-weight: bold;
   color: #FFFFFF;
   background-color: #FF2A00;
-  padding: 25px 40px;
+  padding: 20px 40px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
+#main-section{
+  height: 425px;
+  width: 90%;
+  /* border: #070211 solid 1px; */
+  margin: 120px auto;
+  box-shadow: 5px 5px 1px 5px color rgb(250, 223, 223);
+}
+.section-container{
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center; */
+  align-items: center;
+}
+.ellipse{
+  border: 10px solid red;
+  border-radius: 50%;
+  padding: 20px;
+}
+  
+.best-offer{
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+.h3-2024{
+  font-size: 48px;
+  font-weight: bold;
+  color: #FF2A00;
+  font-family: sans-serif;
+}
+
+#divided{
+  
+  /* border: 1px solid violet; */
+  opacity: 0.5 black;
+  margin: 0 auto;
+  height: 1000px;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.divided-content{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0px 0px 0px;
+ }
+.divided-content-description{
+  height: 400px;
+}
+.divided-content-description-02{
+  background-image: url("../images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  /* text-align: center; */
+  /* width: 1900px; */
+  margin: 0 auto;
+  padding: 300px 0px 0px 0px ;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 100%;
+  background-size: cover;
+  height: 70%;
+  border-radius: 25px;
+}
+  .Holidays{
+  margin: 0;
+  padding: 0;
+  font-size: 75px;
+  font-family: Merriweather;
+}
+.sale{
+  color: #FF2A00;
+}
+.avs-0{
+  text-align: center;
+}
+/* new section */
+#primary-header{
+  width: 90%;
+  height: 100vh%;
+  margin: 150px auto;
+  
+}
+.card-container{
+  box-shadow: 1px 1px 10px 10px #f7eeee;
+  border-radius: 25px;
+}
+.primary-container{
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content:center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.primary-contant .best-gifts{
+  font-size: 24px;
+  color: #FF0000;
+  font-family: sans-serif;
+  padding-top: 100px;
+}
+.primary-contant{
+  margin-bottom: 60px;
+}
+.primary-contant{
+  padding-left: 185px;
+}
+
