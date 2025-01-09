@@ -74,7 +74,6 @@
   color: #070211;
   opacity: 0.7;
   margin-top: 20px;
-
 }
 .body-sub-heading{
   color: #070211;
@@ -105,7 +104,6 @@
 .banner-subtitle{
     font-size: 50px;
     color: #FFFFFF;
-    /* margin-bottom: 6px; */
 }
 .banner-title{
     font-size: 100px;
@@ -132,7 +130,6 @@
   font-weight: 900;
   font-family: Merriweather;
 }
-
 #main{
   margin-top: 140px;
 }
@@ -168,7 +165,6 @@
   font-family: sans-serif;
   line-height: 30px;
   opacity: 0.8;
-  /* margin-top: 15px; */
   margin-bottom: 48px;
 }
 .join-now{
@@ -177,10 +173,8 @@
   color: #FFFFFF;
   text-decoration: none;
 }
-
 .div-container{
   text-align: center;
-  /* border: 1px solid hotpink; */
   border-radius: 10px;
   height: 550px;
   width: 90%;
@@ -199,7 +193,6 @@
   color: #070211;
   font-family: sans-serif;
   padding: 100px 0;
-
 }
 .div-btn{
   margin-top: 40px;
@@ -215,14 +208,12 @@
 #main-section{
   height: 425px;
   width: 90%;
-  /* border: #070211 solid 1px; */
   margin: 120px auto;
   box-shadow: 5px 5px 1px 5px color rgb(250, 223, 223);
 }
 .section-container{
   display: flex;
   justify-content: space-evenly;
-  /* text-align: center; */
   align-items: center;
 }
 .ellipse{
@@ -230,7 +221,6 @@
   border-radius: 50%;
   padding: 20px;
 }
-  
 .best-offer{
   font-size: 24px;
   font-family: sans-serif;
@@ -242,17 +232,13 @@
   color: #FF2A00;
   font-family: sans-serif;
 }
-
 #divided{
-  
-  /* border: 1px solid violet; */
   opacity: 0.5 black;
   margin: 0 auto;
   height: 1000px;
   width: 90%;
   flex-wrap: wrap;
 }
-
 .divided-content{
   display: flex;
   justify-content: space-evenly;
@@ -264,12 +250,8 @@
 .divided-content-description-02{
   background-image: url("../images/Rectangle\ 2.png");
   background-repeat: no-repeat;
-  /* text-align: center; */
-  /* width: 1900px; */
   margin: 0 auto;
   padding: 300px 0px 0px 0px ;
-  /* align-items: center; */
-  /* justify-content: center; */
   width: 100%;
   background-size: cover;
   height: 70%;
@@ -292,14 +274,12 @@
   width: 90%;
   height: 100vh%;
   margin: 150px auto;
-  
 }
 .card-container{
   box-shadow: 1px 1px 10px 10px #f7eeee;
   border-radius: 25px;
 }
 .primary-container{
-  /* background-color: antiquewhite; */
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -319,17 +299,15 @@
 .primary-contant{
   padding-left: 185px;
 }
-
 .last-part{
   text-align: center;
-  /* border: 1px solid hotpink; */
   border-radius: 10px;
   height: 690px;
   width: 90%;
   margin: 0 auto;
   background-color: rgb(252, 236, 236); 
   margin-top: 130px;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 .last-container{
 justify-content: center;
@@ -345,8 +323,6 @@ padding-top: 11vh;
   margin-left: 520px;
   margin-right: 520px;
   border-radius: 50px;
-  
- 
 }
 .input-btn-container{
   padding: 25px 150px;
@@ -354,16 +330,43 @@ padding-top: 11vh;
   border-radius: 50px 0px 0px 50px;
   background-color: #FFFFFF;
   border: none;
-  
 }
 .input-btn-type{
   padding: 25px 63px;
   border-radius: 0px 50px 50px 0px;
-  /* padding-left: 0px; */
   background-color: #FF0000;
   border: none;
   cursor: pointer;
-  /* font-size: 15px; */
-  /* font-weight: 800; */
   color: #FFFFFF;
+}
+/* footer section style */
+#footer-section{
+  height: 650px;
+  background-color:#070211;
+  border: #070211 1px solid;
+}
+.footer-container{
+  color: #f7eeee;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 140px;
+}
+.footer-content{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content-1{
+  gap: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.website{
+  color: #FFFFFF;
+  text-decoration: none;
 }
