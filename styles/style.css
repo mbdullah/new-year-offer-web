@@ -57,9 +57,13 @@
 .font{
   font-size: 24px;
 }
+.spann{
+  color: #FF2A00;
+}
   
 /* header section style */
 .banner-container{
+  border-radius: 25px;
     height: 80vh;
     width: 90%;
     margin: 50px auto;
@@ -74,16 +78,16 @@
 }
 .banner-content{
     text-align: center;
-   padding: 150px 0;
+   padding: 100px 0;
    font-family: Merriweather;
 }
 .banner-subtitle{
-    font-size: 40px;
+    font-size: 50px;
     color: #FFFFFF;
-    margin-bottom: 16px;
+    /* margin-bottom: 6px; */
 }
 .banner-title{
-    font-size: 80px;
+    font-size: 150px;
     color: #FFFFFF;
     font-weight: 800;
 }
@@ -117,6 +121,7 @@
   margin-top: 140px;
 }
 .middle-container{
+  border-radius: 25px;
   height: 80vh;
     width: 90%;
     margin: 50px auto;
@@ -155,4 +160,38 @@
   font-weight: bold;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.div-container{
+  text-align: center;
+  /* border: 1px solid hotpink; */
+  border-radius: 10px;
+  height: 550px;
+  width: 90%;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgb(250, 223, 223) 3.5%,
+        rgba(255, 255, 255, 0)100%
+  );
+  margin-top: 130px;
+  margin-bottom: 200px;
+}
+.div-content{
+  font-size: 45px;
+  font-weight: 700;
+  color: #070211;
+  font-family: sans-serif;
+  padding: 100px 0;
+
+}
+.div-btn{
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #FF2A00;
+  padding: 25px 40px;
+  border: none;
+  border-radius: 10px;
 }
